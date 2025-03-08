@@ -8,7 +8,7 @@ body {
 
 header {
     background: url('../imagenes/header_background.jpeg') no-repeat center center/cover;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,8 +17,7 @@ header {
 }
 
 .header-container {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 100px;
 }
 
 main {
