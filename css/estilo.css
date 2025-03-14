@@ -105,7 +105,7 @@ iframe {
 }
 
 .table-container {
-    max-width: 2000px;
+    max-width: 1500px;
     margin: 40px auto;
     border-collapse: collapse;
     text-align: center;
@@ -139,7 +139,7 @@ td img {
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1500px) {
     h1 {
         font-size: 4rem;
     }
