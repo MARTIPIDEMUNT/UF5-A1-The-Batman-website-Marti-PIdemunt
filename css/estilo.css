@@ -68,7 +68,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .table-container {
-    max-width: 2500px;
+    max-width: 600px;
     margin: 40px auto;
     border-collapse: collapse;
     text-align: center;
@@ -94,8 +94,8 @@ th {
 }
 
 td img {
-    height: 400px;
+    height: 100px;
     border-radius: 10px;
-    width: 400px;
+    width: 100px;
     align-items: center;
 }
