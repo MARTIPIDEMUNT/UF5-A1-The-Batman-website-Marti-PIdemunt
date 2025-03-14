@@ -22,7 +22,7 @@ header h1 {
     margin: 0 auto;
     justify-content: center;
     display: flex;
-    padding: 800px;
+    padding: 400px;
     text-align: center; /* Ensure the title is centered */
 }
 
