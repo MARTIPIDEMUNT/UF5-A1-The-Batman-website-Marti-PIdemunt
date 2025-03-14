@@ -28,6 +28,7 @@ main {
     display: flex;
     justify-content: center;
     padding: 20px;
+    align-items: center;
 }
 
 .content {
@@ -94,8 +95,8 @@ th {
 }
 
 td img {
-    height: 100px;
+    height: auto;
     border-radius: 10px;
-    width: 100px;
+    width: auto;
     align-items: center;
 }
