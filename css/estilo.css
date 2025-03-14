@@ -18,7 +18,7 @@ header {
 
 header h1 {
     font-size: 50px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     justify-content: center;
     display: flex;
@@ -34,7 +34,7 @@ main {
 }
 
 .content {
-    max-width: 1200px;
+    max-width: 800px;
     background: #ffffff;
     padding: 20px;
     margin: 0 auto; /* Center the content container */
@@ -42,14 +42,14 @@ main {
 
 .video iframe {
     width: 100%; /* Match the width of the content container */
-    max-width: 1700px; /* Ensure it doesn't exceed the container's max width */
+    max-width: 800px; /* Ensure it doesn't exceed the container's max width */
     height: 800px; /* Maintain a consistent height */
     border-radius: 10px;
 }
 
 .image img {
     width: 100%; /* Match the width of the content container */
-    max-width: 1200px; /* Ensure it doesn't exceed the container's max width */
+    max-width: 800px; /* Ensure it doesn't exceed the container's max width */
     height: 800px; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure images are cropped properly */
     margin: 10px auto; /* Center images */
@@ -78,7 +78,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .table-container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 10px auto;
     border-collapse: collapse;
     text-align: center;
