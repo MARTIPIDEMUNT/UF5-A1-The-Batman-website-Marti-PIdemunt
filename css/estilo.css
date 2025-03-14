@@ -43,14 +43,13 @@ main {
 .video iframe {
     width: 100%; /* Match the width of the content container */
     max-width: 800px; /* Ensure it doesn't exceed the container's max width */
-    height: 800px; /* Maintain a consistent height */
-    border-radius: 10px;
+    height: 500px; /* Maintain a consistent height */
 }
 
 .image img {
     width: 100%; /* Match the width of the content container */
     max-width: 800px; /* Ensure it doesn't exceed the container's max width */
-    height: 800px; /* Maintain aspect ratio */
+    height: 500px; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure images are cropped properly */
     margin: 10px auto; /* Center images */
     display: block;
