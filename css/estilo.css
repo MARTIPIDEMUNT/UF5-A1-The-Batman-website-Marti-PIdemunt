@@ -18,7 +18,7 @@ header {
 
 header h1 {
     font-size: 35px;
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
     justify-content: center;
     display: flex;
@@ -33,7 +33,7 @@ main {
 }
 
 .content {
-    max-width: 1200px;
+    max-width: 1700px;
     background: #ffffff;
     padding: 20px;
 }
@@ -46,13 +46,14 @@ main {
 .image img {
     width: 100%;
     margin-top: 10px;
+    height: 400px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background: #000;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 strong {
@@ -70,8 +71,8 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .table-container {
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1700px;
+    margin: 10px auto;
     border-collapse: collapse;
     text-align: center;
     width: 100%;
@@ -86,7 +87,7 @@ table {
 }
 
 th, td {
-    padding: 15px;
+    padding: 10px;
     border-bottom: solid #000;
 }
 
@@ -98,7 +99,6 @@ th {
 
 td img {
     height: 250px;
-    border-radius: 10px;
     width: 100%;
     align-items: center;
 }
