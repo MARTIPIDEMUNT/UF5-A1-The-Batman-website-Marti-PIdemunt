@@ -17,36 +17,43 @@ header {
 }
 
 header h1 {
-    font-size: 35px;
+    font-size: 50px;
     max-width: 1700px;
     margin: 0 auto;
     justify-content: center;
     display: flex;
-    padding: 200px;
+    padding: 800px;
+    text-align: center; /* Ensure the title is centered */
 }
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
     padding: 20px;
-    align-items: center;
 }
 
 .content {
     max-width: 1700px;
     background: #ffffff;
     padding: 20px;
+    margin: 0 auto; /* Center the content container */
 }
 
 .video iframe {
-    width: 100%;
+    width: 100%; /* Match the width of the content container */
+    max-width: 1700px; /* Ensure it doesn't exceed the container's max width */
+    height: 800px; /* Maintain a consistent height */
     border-radius: 10px;
 }
 
 .image img {
-    width: 100%;
-    margin-top: 10px;
-    height: 400px;
+    width: 100%; /* Match the width of the content container */
+    max-width: 1700px; /* Ensure it doesn't exceed the container's max width */
+    height: 800px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images are cropped properly */
+    margin: 10px auto; /* Center images */
+    display: block;
 }
 
 footer {
@@ -84,6 +91,7 @@ table {
     background-color: #ffffff;
     text-align: center;
     width: 100%;
+    margin: 0 auto; /* Center the table */
 }
 
 th, td {
@@ -98,7 +106,14 @@ th {
 }
 
 td img {
-    height: 250px;
-    width: 100%;
-    align-items: center;
+    height: 250px; /* Ensure all table images have the same height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop images if necessary */
+    display: block;
+    margin: 0 auto; /* Center images in table cells */
+}
+
+p, h2, h3 {
+    font-size: 1.2rem; /* Increase text size for better readability */
+    line-height: 1.8; /* Improve line spacing */
 }
