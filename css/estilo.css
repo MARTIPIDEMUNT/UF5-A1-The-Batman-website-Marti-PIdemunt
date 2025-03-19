@@ -74,6 +74,7 @@ p {
 }
 
 img {
+    height: 500px; /* Increased image height */
     height: auto; /* Increased image height */
     display: block;
     width: 100%; /* Maintain aspect ratio */
@@ -124,6 +125,7 @@ th {
 
 td img {
     height: 250px; /* Increased table image height */
+    border-radius: 10px;
     width: auto; /* Maintain aspect ratio */
 }
 
